@@ -1,0 +1,73 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input: clone/clone4.fasta).
+           1 sequences; 466 total letters
+
+
+
+Query= CLONE3
+
+Length=466
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CLONE4                                                              16.5    2.3  
+
+
+> CLONE4
+Length=466
+
+ Score = 16.5 bits (31),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 9/15 (60%), Gaps = 0/15 (0%)
+
+Query  185  ELRQDFKPYNREVLQ  199
+            E RQD+     EVLQ
+Sbjct  108  ESRQDYDEQELEVLQ  122
+
+
+ Score = 16.2 bits (30),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 5/16 (31%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  420  LNQNFQQAQLAIRDSN  435
+            +++N +  +LA+R  N
+Sbjct  269  VSKNLRMKKLAVRGPN  284
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.126    0.330    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 187489
+
+
+  Database: User specified sequence set (Input: clone/clone4.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 466
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

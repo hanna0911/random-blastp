@@ -1,0 +1,81 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input: clone/clone9.fasta).
+           1 sequences; 466 total letters
+
+
+
+Query= CLONE4
+
+Length=466
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CLONE9                                                              17.3    1.1  
+
+
+> CLONE9
+Length=466
+
+ Score = 17.3 bits (33),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 10/30 (33%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  179  LKAEEQKDAQRRAALEESEVYGTNNSLSEQ  208
+            L+ +E +D  +  A  E+ ++G N   SEQ
+Sbjct  94   LEEDEDRDNIQLTASRENVLFGLNTDRSEQ  123
+
+
+ Score = 15.8 bits (29),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 19/29 (66%), Gaps = 3/29 (10%)
+
+Query  96   SERGLKAEFSESESRQDYDEQELEVLQER  124
+            SER + +E  E+E R+   ++ ++VL ER
+Sbjct  430  SERRIGSEALENEKRE---QRTVKVLAER  455
+
+
+ Score = 14.6 bits (26),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 8/26 (31%), Positives = 16/26 (62%), Gaps = 3/26 (12%)
+
+Query  402  SMYAND---EGVRTLQFEEEVSTAQK  424
+            ++YA+D   EG+   + E  + ++QK
+Sbjct  137  TIYASDVMVEGLERKEKEFNIDSSQK  162
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.126    0.330    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 187489
+
+
+  Database: User specified sequence set (Input: clone/clone9.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 466
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

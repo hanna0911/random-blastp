@@ -1,0 +1,73 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input: clone/clone7.fasta).
+           1 sequences; 466 total letters
+
+
+
+Query= CLONE6
+
+Length=466
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CLONE7                                                              17.3    1.0  
+
+
+> CLONE7
+Length=466
+
+ Score = 17.3 bits (33),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 16/32 (50%), Gaps = 0/32 (0%)
+
+Query  20   RLSDSQVYASVNLRRDLETEIYRTADQEYQSS  51
+            RL+++  Y+  N  R    E++     EYQ S
+Sbjct  395  RLNENLRYSDSNTERMYLAEVFLREKSEYQHS  426
+
+
+ Score = 16.2 bits (30),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 16/56 (29%), Positives = 22/56 (39%), Gaps = 1/56 (2%)
+
+Query  264  IAHAKLTTVVER-EENTHGQDVNTRTMRGAKALAKSSMTELRVRTNRVEELEEQKE  318
+            +   +LT   ER  EN    D NT  M  A+   +        R  R E   EQ++
+Sbjct  384  VTSLRLTFAAERLNENLRYSDSNTERMYLAEVFLREKSEYQHSRLEREESAAEQEQ  439
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.126    0.330    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 187489
+
+
+  Database: User specified sequence set (Input: clone/clone7.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 466
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

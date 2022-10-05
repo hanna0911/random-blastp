@@ -1,0 +1,97 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input: clone/clone7.fasta).
+           1 sequences; 466 total letters
+
+
+
+Query= CLONE3
+
+Length=466
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CLONE7                                                              18.5    0.56 
+
+
+> CLONE7
+Length=466
+
+ Score = 18.5 bits (36),  Expect = 0.56, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 19/35 (54%), Gaps = 2/35 (6%)
+
+Query  307  VNRRTISNSSLRRKGERMSEGRVFQEQPRIRFLLD  341
+            +  RT+++S L +     S+GR  Q Q    F++D
+Sbjct  218  IRERTLNSSGLLKLTNSSSDGR--QSQTEAVFMVD  250
+
+
+ Score = 16.5 bits (31),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 13/17 (76%), Gaps = 1/17 (6%)
+
+Query  247  RDMEQHQSRGLLSRIEE  263
+            RD+E H++R +  +I+E
+Sbjct  58   RDLELHETR-ITKKIQE  73
+
+
+ Score = 16.2 bits (30),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 9/30 (30%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  141  ILGDVFDNAQREQMQDAHIRHKQNAQSISK  170
+            IL  +F N Q  + + A  R+K N   +++
+Sbjct  176  ILEHLFYNGQMRRNKLACKRNKSNQLGLTR  205
+
+
+ Score = 16.2 bits (30),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 10/19 (53%), Gaps = 1/19 (5%)
+
+Query  382  EEDIPNTNTNKSA-EQLTY  399
+            E+D PN      A EQL Y
+Sbjct  5    EDDKPNVRQAMYAQEQLVY  23
+
+
+ Score = 15.8 bits (29),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 13/18 (72%), Gaps = 1/18 (6%)
+
+Query  352  LMEVSRQSSAIIWLAELE  369
+            LM+V+ Q SA I+  +LE
+Sbjct  45   LMDVT-QRSATIYERDLE  61
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.126    0.330    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 187489
+
+
+  Database: User specified sequence set (Input: clone/clone7.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 466
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

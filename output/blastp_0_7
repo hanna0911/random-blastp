@@ -1,0 +1,73 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input: clone/clone7.fasta).
+           1 sequences; 466 total letters
+
+
+
+Query= CLONE0
+
+Length=466
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  CLONE7                                                              15.8    3.8  
+
+
+> CLONE7
+Length=466
+
+ Score = 15.8 bits (29),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 5/11 (45%), Positives = 9/11 (82%), Gaps = 0/11 (0%)
+
+Query  348  QKAEYEEKKLE  358
+            +K+EY+  +LE
+Sbjct  419  EKSEYQHSRLE  429
+
+
+ Score = 15.0 bits (27),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 9/38 (24%), Positives = 16/38 (42%), Gaps = 9/38 (24%)
+
+Query  281  QESASELANNQTLYELIESFQADVIKLMARERAPCVIR  318
+            +ESA+E      + +L+          M R   P ++R
+Sbjct  431  EESAAEQEQKVKMSQLL---------FMQRTEGPSIVR  459
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.126    0.330    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 187489
+
+
+  Database: User specified sequence set (Input: clone/clone7.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 466
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
